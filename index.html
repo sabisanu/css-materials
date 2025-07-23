@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Viswam CSE Materials</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:pink;
+      padding: 20px;
+    }
+
+    h2 {
+      color:brown;
+    }
+
+    .container {
+    
+      width: 300px;
+      margin: auto;
+      padding: 0;
+    }
+
+    label {
+      display: block;
+      background: #4CAF50;
+      color: white;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+      
+    }
+
+    .content {
+      display: none;
+      background-color: whitesmoke;
+      padding: 30px;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+    input[type="checkbox"]:checked + label + .content {
+      display: block;
+    }
+
+    .content a {
+      display: block;
+      text-decoration: none;
+      color: blue;
+      margin: 5px 0;
+    }
+    .container a:hover{
+      text-decoration: underline;
+    }
+
+    .semester {
+      margin-left: 10px;
+      background-color: coral;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Viswam Engineering College - CSE Materials(R20)regulations</h2>
+
+    <!-- CSE Main -->
+    <input type="checkbox" id="cse">
+    <label for="cse">CSE</label>
+    <div class="content">
+
+      <!-- 1-1 -->
+      <input type="checkbox" id="sem1-1">
+      <label for="sem1-1" class="semester">1-1</label>
+      <div class="content">
+        <ol>
+       <li><a href="https://drive.google.com/file/d/1W_Xgl0FXnd1G_03WsXSVOV7x2gnUllVU/view?usp=sharing">c-programming & data structures(CPDS)</a></li>
+       <li><a href="https://drive.google.com/file/d/1vcHQt4vH5SkAIp5A8ZV8xkdSBXjf1sKg/view?usp=sharing">linear algebra and calculas(M1)</a></li>
+       <li><a href="https://www.forum.universityupdates.in/attachments/jntua-chemistry-r20-notes-pdf.28866/">chemistry</a></li>
+       <li><a href="https://drive.google.com/file/d/1c3ufFNJ1zxBOGjarLGzCdI5H72JdrVz-/view?usp=sharing">basic electrical & electronic enginerring(BEEE)</a></li>
+        </ol>
+      </div>
+
+      <!-- 1-2 -->
+      <input type="checkbox" id="sem1-2">
+      <label for="sem1-2" class="semester">1-2</label>
+      <div class="content">
+        <ol>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-communicative-english-notes-r20-pdf.28876/">communicative English</a></li>
+       <li><a href="https://drive.google.com/file/d/1rOGhsP-NnUWK6EMCeQ2VE0cJH9ME1O4X/view?usp=sharing">Applied Physics</a></li>
+       <li><a href="https://drive.google.com/file/d/12byVyW1DL8tRK4clAb2iQzYmshw39e1k/view?usp=sharing">Python programming & data science(ppds) </a></li>
+       <li><a href="https://www.scribd.com/document/859756422/JNTUA-Probability-and-Statistics-Notes-R20">probability & statistics(M2)</a></li>
+       <li><a href="https://www.forum.universityupdates.in/attachments/jntua-engineering-drawing-notes-r20-pdf.28880">Engineering drawing(ED)</a></li>
+        </ol>
+      </div>
+
+      <!-- 2-1 -->
+      <input type="checkbox" id="sem2-1">
+      <label for="sem2-1" class="semester">2-1</label>
+      <div class="content">
+        <ol>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-computer-organization-notes-r20-pdf.28891/">computer organization</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-universal-human-values-notes-r20-eee-pdf.29217/">UHV</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-object-oriented-programming-through-java-notes-r20-pdf.28890/">oop-java</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-discrete-mathematics-graph-theory-ppt-notes-r20-pdf.28886/">discrete mathmatics & graph theory(M3)</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-advanced-data-structures-algorithms-notes-r20-pdf.28889/">Advanced data structure & algorithm</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-digital-electronics-microprocessors-ppt-notes-r20-pdf.28887/">DEMP</a></li>
+        </ol>
+      </div>
+
+      <!-- 2-2 -->
+      <input type="checkbox" id="sem2-2">
+      <label for="sem2-2" class="semester">2-2</label>
+      <div class="content">
+        <ol>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-database-management-systems-notes-r20-pdf.28897/">DBMS</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-operating-systems-notes-r20-pdf.28899/">OS</a></li>
+        <li><a href="https://mdu.ac.in/UpFiles/UpPdfFiles/2021/Jul/4_07-01-2021_12-32-15_Organizational%20Behaviour.pdf">OB</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-software-engineering-notes-r20-pdf.28900/">software engineering</a></li>
+        </ol>
+      </div>
+
+      <!-- 3-1 -->
+      <input type="checkbox" id="sem3-1">
+      <label for="sem3-1" class="semester">3-1</label>
+      <div class="content">
+        <ol>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-computer-networks-notes-r20-pdf.28909/">Computer Networks</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/artificial-intelligence-notes-pdf.23333/">AI</a></li>
+        <li><a href="https://vemu.org/uploads/lecture_notes/30_12_2019_1363038417.pdf">MATLAB programming for engineers</a></li>
+        <li><a href="https://www.forum.universityupdates.in/attachments/jntua-software-project-management-notes-r20-pdf.28910/">SPM</a></li>
+        </ol>
+      </div>
+
+      <!-- 3-2 -->
+      <input type="checkbox" id="sem3-2">
+      <label for="sem3-2" class="semester">3-2</label>
+      <div class="content">
+        <ol>
+        <li><a href="https://drive.google.com/file/d/1lICP3JNbfnb8zjuNMJpWRmQSZwrj1mon/view?usp=sharing">basic VLSI design</a></li>
+       <li><a href="https://drive.google.com/file/d/13TSgICB799Gb50MP9uqM3U8uHNdq9b5d/view?usp=sharing">Machine Learning</a></li>
+       <li><a href="https://drive.google.com/file/d/1S8VwSYazXe284X_88LFhsGZzryPSyDtf/view?usp=sharing">IOT</a></li>
+       <li><a href="https://www.forum.universityupdates.in/attachments/jntua-software-engineering-notes-r20-pdf.28900/">Software testing</a></li>
+       <li><a href="https://www.slideshare.net/slideshow/jntua-compiler-design-notes-pdf-for-all-units/273878303">Compiler design</a></li>
+        </ol>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
